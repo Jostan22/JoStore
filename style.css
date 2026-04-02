@@ -576,8 +576,15 @@ section {
 
 .timeline-content h3 {
     font-size: 2.2rem;
-    color: var(--main-color);
     margin-bottom: 1rem;
+}
+
+.timeline-item:nth-child(odd) .timeline-content h3 {
+    color: #ffffff;
+}
+
+.timeline-item:nth-child(even) .timeline-content h3 {
+    color: var(--main-color);
 }
 
 .timeline-content p {
