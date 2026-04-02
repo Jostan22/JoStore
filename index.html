@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio Web Developer Spesialis Bot Telegram, Discord, dan WhatsApp">
+    <title>Jostore - Bot Developer Portfolio</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css?v=2.8">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <img src="assets/logo.png" alt="Loading JoStore..." class="preloader-logo">
+            <h2 class="preloader-text">JoStore</h2>
+        </div>
+    </div>
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="assets/logo.png" alt="JoStore Logo" class="header-logo">
+            <span class="logo-text">JoStore</span>
+        </a>
+        <nav class="navbar">
+            <a href="#home" class="active">Beranda</a>
+            <a href="#skills">Keahlian</a>
+            <a href="#projects">Portofolio</a>
+            <a href="#order-flow">Alur</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <section class="home" id="home">
+        <canvas id="particles-canvas"></canvas>
+        <div class="home-content">
+            <h3>Halo, Saya</h3>
+            <h1>JoStore</h1>
+            <h3>Spesialis <span class="multiple-text"></span></h3>
+            <p>Saya membangun sistem automasi dan bot pintar untuk komunitas, bisnis, dan layanan e-commerce di
+                Telegram, Discord, dan WhatsApp. Mari wujudkan ide Anda menjadi asisten virtual yang tangguh.</p>
+            <div class="social-media">
+                <a href="#" style="--i:7;"><i class='bx bxl-telegram'></i></a>
+                <a href="#" style="--i:8;"><i class='bx bxl-discord-alt'></i></a>
+                <a href="#" style="--i:9;"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#" style="--i:10;"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="#contact" class="btn">Hubungi Saya</a>
+        </div>
+
+        <div class="home-img">
+            <div class="bot-animation">
+                <div class="bot-eye left"></div>
+                <div class="bot-eye right"></div>
+                <div class="bot-mouth"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">Keahlian & <span>Platform</span></h2>
+        <div class="skills-container">
+            <div class="skill-box telegram">
+                <i class='bx bxl-telegram'></i>
+                <h3>Telegram Bots</h3>
+                <p>Bot grup, manajemen channel, integrasi payment gateway, dan automasi bisnis dengan Node.js/Python.
+                </p>
+            </div>
+            <div class="skill-box discord">
+                <i class='bx bxl-discord-alt'></i>
+                <h3>Discord Bots</h3>
+                <p>Moderasi server, sistem ranking, integrasi API eksternal, dan bot musik/game untuk komunitas.</p>
+            </div>
+            <div class="skill-box whatsapp">
+                <i class='bx bxl-whatsapp'></i>
+                <h3>WhatsApp Bots</h3>
+                <p>Customer Service automasi, blast message, dan WhatsApp e-commerce bots dengan Baileys/WWeb.js.</p>
+            </div>
+            <div class="skill-box backend">
+                <i class='bx bx-server'></i>
+                <h3>Backend & API</h3>
+                <p>Membangun API RESTful, webhooks, manajemen database (MongoDB/MySQL) untuk menyimpan data bot.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="heading">Karya <span>Saya</span></h2>
+        <div class="projects-container">
+            <div class="project-box">
+                <div class="project-info">
+                    <h4>AdminGuard Telegram</h4>
+                    <span class="platform-tag" style="color: #229ED9; border-color: #229ED9;"><i
+                            class='bx bxl-telegram'></i> Telegram</span>
+                    <p>Bot mutakhir untuk manajemen grup dengan fitur anti-spam, auto-kick, dan filter keyword.</p>
+                </div>
+            </div>
+            <div class="project-box">
+                <div class="project-info">
+                    <h4>GameCorner Discord</h4>
+                    <span class="platform-tag" style="color: #5865F2; border-color: #5865F2;"><i
+                            class='bx bxl-discord-alt'></i> Discord</span>
+                    <p>Bot Discord interaktif yang menyediakan sistem level up, role otomatis, dan mini-games
+                        terintegrasi.</p>
+                </div>
+            </div>
+            <div class="project-box">
+                <div class="project-info">
+                    <h4>WA AutoShop</h4>
+                    <span class="platform-tag" style="color: #25D366; border-color: #25D366;"><i
+                            class='bx bxl-whatsapp'></i> WhatsApp</span>
+                    <p>Sistem order WhatsApp canggih yang merespons pesanan secara otomatis, menghitung ongkir, dan
+                        konfirmasi pembayaran.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Flow Section -->
+    <section class="order-flow" id="order-flow">
+        <h2 class="heading">Alur <span>Pemesanan</span></h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"><i class='bx bx-conversation'></i></div>
+                <div class="timeline-content">
+                    <h3>1. Diskusi</h3>
+                    <p>Membahas ide, kebutuhan bot, dan target pengguna.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"><i class='bx bx-search-alt-2'></i></div>
+                <div class="timeline-content">
+                    <h3>2. Analisis</h3>
+                    <p>Menganalisis sistem yang dibutuhkan dan platform terbaik.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"><i class='bx bx-pencil'></i></div>
+                <div class="timeline-content">
+                    <h3>3. Design</h3>
+                    <p>Merancang alur logika bot dan antarmuka interaksi.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"><i class='bx bx-file'></i></div>
+                <div class="timeline-content">
+                    <h3>4. Penawaran</h3>
+                    <p>Kesepakatan harga, timeline pengerjaan, dan ruang lingkup.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"><i class='bx bx-code-alt'></i></div>
+                <div class="timeline-content">
+                    <h3>5. Development</h3>
+                    <p>Proses coding dan pengujian fitur bot secara komprehensif.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"><i class='bx bx-rocket'></i></div>
+                <div class="timeline-content">
+                    <h3>6. Delivery</h3>
+                    <p>Bot siap digunakan, deployment, dan serah terima ke klien.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <h2 class="heading">Pertanyaan yang Sering <span>Diajukan</span></h2>
+        <div class="faq-container">
+            <details class="faq-item">
+                <summary>Berapa lama proses pembuatan bot?</summary>
+                <div class="faq-content">
+                    <p>Waktu pengerjaan bervariasi bergantung pada tingkat kerumitan fitur. Untuk bot standar biasanya memakan waktu 3-7 hari, sedangkan sistem e-commerce yang sangat kompleks bisa memakan waktu hingga beberapa minggu.</p>
+                </div>
+            </details>
+            <details class="faq-item">
+                <summary>Apakah saya perlu menyiapkan server (hosting) sendiri?</summary>
+                <div class="faq-content">
+                    <p>Saya menyediakan dua opsi: Saya bisa membantu melakukan setup pada server/VPS milik Anda (Full Akses), atau menggunakan server milik saya dengan biaya maintenance bulanan yang amat terjangkau.</p>
+                </div>
+            </details>
+            <details class="faq-item">
+                <summary>Apakah ada garansi atau layanan perbaikan bug?</summary>
+                <div class="faq-content">
+                    <p>Ya, tentu! Setiap pesanan disertai dengan layanan garansi perbaikan bug dan penyesuaian minor selama 30 hari pertama setelah bot selesai di-deploy untuk Anda gunakan beroperasi.</p>
+                </div>
+            </details>
+            <details class="faq-item">
+                <summary>Platform apa saja yang paling sering dikerjakan?</summary>
+                <div class="faq-content">
+                    <p>Saya utamanya berspesialisasi dalam merakit bot canggih untuk Telegram, Discord, dan WhatsApp. API eksternal seperti Payment Gateway, Google Sheets, maupun Webhooks dapat diintegrasikan serba otomatis.</p>
+                </div>
+            </details>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Mari <span>Bekerjasama!</span></h2>
+        <div class="contact-links">
+            <a href="https://discord.gg/89pT7P2puz" target="_blank" class="contact-btn discord">
+                <i class='bx bxl-discord-alt'></i> Discord
+            </a>
+            <a href="https://wa.me/6282252183935" target="_blank" class="contact-btn whatsapp">
+                <i class='bx bxl-whatsapp'></i> WhatsApp
+            </a>
+            <a href="mailto:stanlystore22@gmail.com" class="contact-btn email">
+                <i class='bx bx-envelope'></i> Email
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 by JoStore | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+    <script src="script.js?v=2.3"></script>
+</body>
+
+</html>
